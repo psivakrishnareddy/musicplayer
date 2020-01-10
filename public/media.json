@@ -1,0 +1,90 @@
+[
+  {
+    "albumName": "Pharmacy",
+    "albumArtwork": "static/Pharmacy/Pharmacy.jpg",
+    "albumArtist": "Galantis",
+    "songs": [
+      {
+        "name": "Forever Tonight",
+        "src": "static/Pharmacy/Forever Tonight.mp3"
+      },
+      { "name": "Gold Dust", "src": "static/Pharmacy/Gold Dust.mp3" },
+      { "name": "In My Head", "src": "static/Pharmacy/In My Head.mp3" },
+      {
+        "name": "Runaway (U & I)",
+        "src": "static/Pharmacy/Runaway (U & I).mp3"
+      },
+      {
+        "name": "Dancin To the Sound of a Broken Heart",
+        "src": "static/Pharmacy/Dancin' To the Sound of a Broken Heart.mp3"
+      },
+      {
+        "name": "Louder, Harder, Better",
+        "src": "static/Pharmacy/Louder, Harder, Better.mp3"
+      },
+      {
+        "name": "Call If You Need Me",
+        "src": "static/Pharmacy/Call If You Need Me.mp3"
+      },
+      {
+        "name": "Peanut Butter Jelly",
+        "src": "static/Pharmacy/Peanut Butter Jelly.mp3"
+      },
+      { "name": "Firebird", "src": "static/Pharmacy/Firebird.mp3" },
+      { "name": "Don't Care", "src": "static/Pharmacy/Don't Care.mp3" },
+      { "name": "You", "src": "static/Pharmacy/You.mp3" },
+      { "name": "Water", "src": "static/Pharmacy/Water.mp3" }
+    ]
+  },
+  {
+    "albumName": "Random Access Memories",
+    "albumArtwork": "static/RandomAccessMemories/RandomAccessMemories.jpg",
+    "albumArtist": "Daft Punk",
+    "songs": [
+      {
+        "name": "Give Life Back to Music",
+        "src": "static/RandomAccessMemories/Give%20Life%20Back%20to%20Music.mp3"
+      },
+      {
+        "name": "The Game of Love",
+        "src": "static/RandomAccessMemories/The%20Game%20of%20Love.mp3"
+      },
+      {
+        "name": "Giorgio by Moroder",
+        "src": "static/RandomAccessMemories/Giorgio%20by%20Moroder.mp3"
+      },
+      { "name": "Within", "src": "static/RandomAccessMemories/Within.mp3" },
+      {
+        "name": "Instant Crush",
+        "src": "static/RandomAccessMemories/Instant Crush.mp3"
+      },
+      {
+        "name": "Lose Yourself To Dance",
+        "src": "static/RandomAccessMemories/Lose Yourself To Dance.mp3"
+      },
+      {
+        "name": "Touch (feat. Paul Williams)",
+        "src": "static/RandomAccessMemories/Touch (feat. Paul Williams).mp3"
+      },
+      {
+        "name": "Get Lucky (feat. Pharrell Williams)",
+        "src": "static/RandomAccessMemories/Get Lucky (feat. Pharrell Williams).mp3"
+      },
+      { "name": "Beyond", "src": "static/RandomAccessMemories/Beyond.mp3" },
+      {
+        "name": "Motherboard",
+        "src": "static/RandomAccessMemories/Motherboard.mp3"
+      },
+      {
+        "name": "Fragments of Time (feat. Todd Edwards)",
+        "src": "static/RandomAccessMemories/Fragments of Time (feat. Todd Edwards).mp3"
+      },
+      {
+        "name": "Doin' It Right (feat. Panda Bear)",
+        "src": "static/RandomAccessMemories/Doin' It Right (feat. Panda Bear).mp3"
+      },
+      { "name": "Contact", "src": "static/RandomAccessMemories/Contact.mp3" },
+      { "name": "Horizon", "src": "static/RandomAccessMemories/Horizon.mp3" }
+    ]
+  }
+]

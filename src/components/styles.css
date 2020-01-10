@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+/* .react-media-section {
+  background-color: black;
+} */
+nav {
+  height: 55px;
+  width: 100%;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+}
+
+nav div {
+  font-size: 25px;
+  height: 100%;
+  width: 450px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111316;
+}
+
+nav .links {
+  background: #111316;
+  flex-grow: 1;
+}
+
+/* main styles  */
+main {
+  height: 588px;
+  flex-grow: 1;
+  display: flex;
+  background-color: black;
+}
+
+main .albums {
+  padding: 0 50px;
+  box-sizing: border-box;
+  width: 700px;
+  height: 100%;
+  background: #35373a66;
+  border-right: 1px solid #323e4f;
+}
+
+main h2 {
+  color: white;
+}
+
+main .albums .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-template-rows: repeat(auto-fill, 150px);
+  grid-gap: 30px;
+}
+
+main .album {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .albums .grid img {
+  width: 150px;
+  height: 150px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.playlist-square {
+  position: relative;
+}
+
+.playlist-square .play-button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: ghostwhite;
+  height: 35px;
+  width: 35px;
+  z-index: 5;
+  border: px solid black;
+  border-radius: 30%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+}
+
+.album > span {
+  margin: 16px 0;
+  user-select: none;
+}
+
+.album-meta {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+}
+
+.album-meta img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.album-meta > span {
+  padding-bottom: 10px;
+  font-size: 24px;
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+}
+
+.album-playlist {
+  flex-grow: 1;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.playlist-song {
+  display: flex;
+}
+.playlist-favs {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.playlist-song i {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.playlist-song span {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.album img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Player  */
+.player-section {
+  background-color: black;
+  border-top: 2px solid #323e4f;
+  width: 100%;
+  height: 60px;
+  align-self: auto;
+  z-index: 6;
+  position: absolute;
+  bottom: 0;
+}
+
+audio {
+  width: 100%;
+}
+
+.songs-queue {
+  padding: 0 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  overflow-x: hidden;
+  width: 400px;
+  height: 85%;
+}
+
+.song-in-queue {
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.delete-song {
+  float: right;
+}
+
+.playlist-square-add {
+  position: relative;
+  padding: 25px;
+}
+
+.playlist-square-add i {
+  font-size: 110px;
+}
+
+#albumaddForm {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid chartreuse;
+  border-radius: 20px;
+}
+#albumaddForm input {
+  width: 85% !important;
+  margin: 10px;
+  padding: 10px;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
