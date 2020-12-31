@@ -1,3 +1,9 @@
+# React based Music Player with FireBase database , Storage used for uploading albums and streaming songs. 
+with playlist queues favourite lists and playback
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
